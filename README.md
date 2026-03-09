@@ -45,7 +45,7 @@ Monitors the **full LIDAR field** to ensure safety regardless of the robot's ori
 
 Ensure you have a ROS 2 workspace (e.g., ros2_ws).
 
-##Launch and Teleop
+## Launch and Teleop
 
 ```bash
 cd ~/ros2_ws
@@ -58,4 +58,5 @@ ros2 launch my_diff_robot robot.launch.py
 # Open a new terminal for teleoperation
 source install/setup.bash
 python3 src/my_diff_robot/scripts/simple_teleop.py
+
 
