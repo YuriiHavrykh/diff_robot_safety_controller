@@ -39,7 +39,11 @@ Instead of filtering existing commands, the node **publishes a high-priority zer
 Monitors the **full LIDAR field** to ensure safety regardless of the robot's orientation or movement direction.
 
 ---
+# Demonstration
 
+https://youtu.be/FjHaDBP8duE
+
+---
 # Build & Run Instructions
 ## Setup
 
@@ -58,5 +62,6 @@ ros2 launch my_diff_robot robot.launch.py
 # Open a new terminal for teleoperation
 source install/setup.bash
 python3 src/my_diff_robot/scripts/simple_teleop.py
+
 
 
